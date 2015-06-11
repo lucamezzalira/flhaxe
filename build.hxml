@@ -1,0 +1,24 @@
+### dependencies libs
+-lib minject
+
+### distributable file
+-js dist/FlHaxe.js
+
+### set folder of .hx files
+-cp src
+
+### main Haxe class
+-main FlHaxe
+
+### create source map
+-D source-map-content
+
+### set dead code elimination
+-dce std
+
+### add analyzer and time to compile
+-D analyzer
+--times
+
+### create empty lines after successful compilation
+-cmd echo && echo
